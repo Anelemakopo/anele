@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title> Survet_Form</title>
+        <link rel="stylesheet" href="style.css" />
+        
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body> 
+        <div class="heading">       
+        </div>
+        <form action="result.html" method="POST">
+            <div id="content1">
+
+                <h1 id="head"> Fill Out Survey</h1><br>
+            <h2 id="subheading">Survey</h2><br><br>
+            <label>Name</label><br><br>
+            <input type="text" id="name" name="name" placeholder="Enter name.."required class="box" />
+            <br><br>
+            <label>Email</label><br><br>
+            <input type="text" id="email" name="email" placeholder="Enter email.."required class="box" />
+            <br><br>
+            <legend>Date of Birth</legend><br>
+            <label for="my-date-picker">
+                <input id="my-date-picker" type="date" 
+                       max="2019-12-31" 
+                       min="1904-12-31" required class="box">
+
+                    </label>
+                </fieldset><br><br>
+                <label>Contact number</label><br><br>
+                <input type="contact number" name="contact number" placeholder="Enter your contact number"required class="box"><br><br>
+
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px">What is Your favorite food?          
+                <input type="checkbox" name="Select" >Pizza
+                <input type="checkbox" name="Select" >Pasta
+                <input type="checkbox" name="Select" >Pap and wors
+                <input type="checkbox" name="Select" >Other
+            </label>
+            </div>
+                <table>
+                    <tbody>
+                    <tr>
+                        <br><br>
+                        <h3 class="heading3">Please rate your level of agreement on a scale from 1 to 5, with 1 being"strongly agree" and 5 being"strongly disagree</h3><br><br>
+                        <th>         </th>
+                        <th>Strongly agree</th>
+                        <th>agree</th>
+                        <th>nuetral</th>
+                        <th>disagree</th>
+                        <th>strongly disagree</th>
+                    </tr>
+                    <tr>
+                        <td>I like to watch movies</td>
+                        <td><input type="radio" name="agreement" required></td>
+                        <td><input type="radio" name="agreement"required></td>
+                        <td><input type="radio" name="agreement"required></td>
+                        <td><input type="radio" name="agreement"required></td>
+                        <td><input type="radio" name="agreement"required></td>
+                    </tr>
+                    <tr>
+                        <td>I like to lsten to radio</td>
+                        <td><input type="radio" name="sdindi"required></td>
+                        <td><input type="radio" name="sdindi"required></td>
+                        <td><input type="radio" name="sdindi"required></td>
+                        <td><input type="radio" name="sdindi"required></td>
+                        <td><input type="radio" name="sdindi"required></td>
+                    </tr>
+                    <tr>
+                        <td>I like to eat out</td>
+                        <td><input type="radio" name="Qwathu"required></td>
+                        <td><input type="radio" name="Qwathu"required></td>
+                        <td><input type="radio" name="Qwathu"required></td>
+                        <td><input type="radio" name="Qwathu"required></td>
+                        <td><input type="radio" name="Qwathu"required></td>
+                    </tr>
+                 
+                    <tr>
+                        <td>I like to watch TV</td>
+                        <td><input type="radio" name="Dikela"required></td>
+                        <td><input type="radio" name="Dikela"required></td>
+                        <td><input type="radio" name="Dikela"required></td>
+                        <td><input type="radio" name="Dikela"required></td>
+                        <td><input type="radio" name="Dikela"required></td>
+                    </tr>
+                </tbody>
+                </table><br>
+                <br><br>
+            <input type="submit" onclick="handleSubmit()"/>
+            <br><br>
+        </form>
+      
+    </body>
+</html>
+

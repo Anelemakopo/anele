@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(#9b98a4, #feffb2);
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#head{
+    font-size: 1.8em;
+   
+}
+#subheading{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+#content1{
+    width: 90%;
+    margin: auto;
+    font-size: small;
+}
+form{
+    background: radial-gradient(#ceebb1, #fffffd);
+    padding-top: 34px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+form .box{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+.option1 .heading3{
+    margin: 30px 0;
+}
+table{
+    width: 650px;
+}
+th{
+    text-align: left;
+}
+th:nth-child(even), td:nth-child(even){
+    background-color: #D6eeee;
+}
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+table tbody td{
+    text-align: center;
+}
+input[type=radio], input[type=checkbox]{
+    transform: scale(1.3);
+    margin-right: 2em;
+}
+button{
+    display: block;
+    width: 25%;
+    padding: 10px 10px;
+    background-color:#D6eeee;
+}
+    .heading2{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#head2{
+    font-size: 1.8em;
+}
+#subheading2{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.heading4{
+    text-align:left;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 1.8em;
+}
+h3{
+    text-align: center;
+    font-size: 1.8em;
+}
+h2{
+ font-size: 18px;
+ font-family: Arial;
+ font-weight: 100;
+}
